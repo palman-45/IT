@@ -1,0 +1,245 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('falcon_logo.jpg');
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #1e40af;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: -1;
+}
+
+nav {
+    background-color: #1e40af;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: white;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.content-wrapper {
+    flex: 1;
+}
+
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    margin-bottom: 120px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    color: #1e40af;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.button-group {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.btn {
+    padding: 12px 25px;
+    border: 2px solid #1e40af;
+    background-color: white;
+    color: #1e40af;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #1e40af;
+    color: white;
+}
+
+.about-page {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-page h1 {
+    color: #1e40af;
+    margin-bottom: 20px;
+}
+
+.about-page p {
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.about-section {
+    padding: 60px 40px;
+    max-width: 800px;
+    margin: 0 auto 120px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.about-section h2 {
+    color: #1e40af;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.about-section p:last-child {
+    margin-bottom: 0;
+}
+
+.contact-section {
+    padding: 60px 40px;
+    max-width: 800px;
+    margin: 0 auto 80px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.contact-section h2 {
+    color: #1e40af;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    color: #333;
+    margin: 8px 0;
+}
+
+.contact-info-box {
+    margin-top: 40px;
+    padding-top: 30px;
+    border-top: 1px solid #ccc;
+}
+
+.contact-info-box h2 {
+    color: #1e40af;
+    margin-bottom: 15px;
+}
+
+.contact-info-box p {
+    color: #333;
+    margin: 8px 0;
+}
+
+footer {
+    background-color: #1e40af;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-container {
+    padding: 40px 20px;
+}
+
+.main-title {
+    font-size: 2rem;
+    color: #1e40af;
+    margin-bottom: 15px;
+}
+
+.main-button {
+    padding: 12px 25px;
+    border: 2px solid #1e40af;
+    background-color: white;
+    color: #1e40af;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.main-button:hover {
+    background-color: #1e40af;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #1e40af;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+}
+

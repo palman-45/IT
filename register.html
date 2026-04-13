@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Falcon Academy</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .register-container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 60px 20px;
+            border: 1px solid #ccc;
+        }
+
+        .form-card {
+            background-color: white;
+            padding: 40px;
+            border: 2px solid #1e40af;
+            width: 100%;
+            max-width: 400px;
+            text-align: left;
+            border-radius: 8px;
+        }
+
+        .form-card h2 {
+            text-align: center;
+            font-size: 1.5rem;
+            margin-bottom: 25px;
+            color: #1e40af;
+            border-bottom: 2px solid #1e40af;
+            padding-bottom: 10px;
+            margin-top: 0;
+            margin-bottom: 20px;
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            box-sizing: border-box;
+            margin-left: 0;
+            margin-right: 0;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+            color: #1e40af;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            font-size: 1rem;
+            border-radius: 4px;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 12px;
+            background-color: #1e40af;
+            color: white;
+            border: 2px solid #1e40af;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 1rem;
+            border-radius: 4px;
+        }
+
+        .submit-btn:hover {
+            background-color: white;
+            color: #1e40af;
+        }
+
+        .submit-btn:active {
+            background-color: #1e40af;
+            color: white;
+        }
+
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 15px;
+            color: #1e40af;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="register-container">
+        <div class="form-card">
+            <h2>Student Registration</h2>
+            <form method="post" action="index.html">
+                <label>First Name</label>
+                <input type="text" placeholder="Enter your first name" required>
+                
+                <label>Last Name</label>
+                <input type="text" placeholder="Enter your last name" required>
+                
+                <label>Email Address</label>
+                <input type="email" placeholder="Enter your email" required>
+                
+                <label>Password</label>
+                <input type="password" placeholder="Create a password" required>
+
+                <button type="submit" class="submit-btn">Create Account</button>
+            </form>
+            <a href="index.html" class="back-link">← Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>
